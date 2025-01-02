@@ -11,6 +11,81 @@
             box-sizing: border-box;
         }
 
+        /* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+        projectitle {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            }
+        projectdescription {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -19,15 +94,17 @@
         }
 
         header {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background:  #e6e6e6;
             color: white;
             padding: 2rem;
             text-align: center;
         }
 
         header h1 {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             margin-bottom: 0.5rem;
+            color: #000;
+            font-style: normal;
         }
 
         header p {
@@ -42,20 +119,20 @@
         nav a {
             margin: 0 1rem;
             text-decoration: none;
-            color: #667eea;
+            color: #00274D;
             font-size: 1.2rem;
             font-weight: bold;
         }
 
         nav a:hover {
-            color: #764ba2;
+            color: #0553a1;
         }
 
         main {
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            text-align: center;
+            text-align: left;
         }
 
         main section {
@@ -64,7 +141,7 @@
 
         main h2 {
             margin-bottom: 1rem;
-            color: #667eea;
+            color: #00274D;
         }
 
         footer {
@@ -80,57 +157,68 @@
         }
 
         footer a {
-            color: #667eea;
+            color: #00274D;
             text-decoration: none;
         }
 
         footer a:hover {
-            color: #764ba2;
+            color: #0553a1;
         }
     </style>
 </head>
 <body>
     <header>
-        <p></p>
+        <h1>Jaume Colom's projects</h1>
     </header>
 
     <nav>
-        <a href="#cv">CV</a>
-        <a href="#aficiones">Aficiones</a>
-        <a href="#rutas">Rutas</a>
-        <a href="#curiosidades">Curiosidades</a>
-        <a href="#fotos">Fotos</a>
+        <a href="#tech">Tech</a>
+        <a href="#sport">Sport</a>
+        <a href="#travel">Travel</a>
+        <a href="#creative">Creative</a>
+        <a href="#personal">Personal</a>
     </nav>
 
     <main>
-        <section id="cv">
-            <h2>Mi CV</h2>
-            <p>Conoce más sobre mi experiencia profesional y académica.</p>
-        </section>
+        <section id="tech">
+            <h2>Tech</h2>
+            <table>
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <center><a href="https://bot2bee.app" target="_blank">
+                    <img src="https://www.bot2bee.app/assets/images/vectors/logo-bot2bee.svg" style="border-style: none"></a></center>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://bot2bee.app" style="text-decoration: none;" target="_blank">
+                    <projectitle>Bot2Bee</projectitle>
+                  </a>
+                  <br>
+                  <projectdescription>
+                    Automation of responses, interaction analysis, and real-time management.</projectdescription>
+                  <br>
+                  <projectdescription>Bot2Bee is an intelligent platform for creating chatbots on social media, designed to help businesses automate customer service and improve lead generation. Its functionality allows managing messages on Instagram, WhatsApp, and Messenger, with the option to intervene manually when needed. Ideal for physical or online businesses looking to promote themselves in a cost-effective and efficient way.</projectdescription>
+                  <br>
+                  <br>
+                  <ul>
+                    <li><strong>Frontend:</strong> Angular, HTML5, CSS3, TypeScript, Bootstrap.</li>
+                    <li><strong>Backend:</strong> Node.js, Express.js, Flask (Python)</li>
+                    <li><strong>Database:</strong> MongoDB</li>
+                    <li><strong>Infrastructure:</strong> AWS (Elastic Beanstalk, S3/CloudFront, EC2)</li>
+                    <li><strong>Integrations:</strong> Meta API (Messenger, WhatsApp, Instagram), Stripe, Make</li>
+                </ul>
+                </td>
+              </tr>
+              <tr>
+            </table>
 
-        <section id="aficiones">
-            <h2>Aficiones</h2>
-            <p>Descubre lo que me apasiona en mi tiempo libre.</p>
         </section>
+        
 
-        <section id="rutas">
-            <h2>Rutas</h2>
-            <p>Explora mis rutas favoritas para senderismo, ciclismo y más.</p>
-        </section>
 
-        <section id="curiosidades">
-            <h2>Curiosidades</h2>
-            <p>Datos interesantes y curiosos sobre mí.</p>
-        </section>
-
-        <section id="fotos">
-            <h2>Fotos</h2>
-            <p>Galería de momentos memorables.</p>
-        </section>
     </main>
 
     <footer>
-        <p>Jaume Colom Ferrer, 01/2025. Follow my <a href="https://github.com/jaumecolom">GitHub repo's</a>.</p>
+        <p>☕✨</p>
     </footer>
 </body>
 </html>
